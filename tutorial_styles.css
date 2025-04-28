@@ -1,0 +1,56 @@
+  
+body {
+    min-height: 100%;
+    background-size: cover;
+    background-color: #d1c7b7;
+    font-family: "Playfair Display", sans-serif;
+}
+
+.tut_boxes {
+    height: 50vw;
+    justify-content: center;
+}
+
+.cover_img {
+    margin-top: 30px;
+    width: 25%;
+    height: 50%;
+    object-fit: cover;
+    margin-left: 5vw;
+    margin-right: 2.5vw;
+    border-radius: 10px;
+    filter: grayscale(100%);
+    transition: all 0.5s ease;
+}
+
+.cover_img:hover {
+    transform: scale(1.1);
+    filter: grayscale(0%);
+    visibility: visible;
+}
+
+.p { 
+  margin: auto;
+  margin-top: 30px;
+  position: relative;
+  color: #333;
+  text-align: justify;
+  opacity: 1;
+  width: 70%;
+  font-size:18px;
+}
+
+.tut_img {
+    display: block;
+    max-height: 20%;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.descr_text {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
