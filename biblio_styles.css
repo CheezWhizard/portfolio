@@ -1,0 +1,6 @@
+  body {
+    min-height: 100%;
+    background-size: cover;
+    background-color: rgb(153,178,221);
+    font-family: "Playfair Display", sans-serif;
+}
