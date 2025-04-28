@@ -1,0 +1,55 @@
+ 
+body {
+    min-height: 100%;
+    /*background-image: url('stars.png'); */
+    background-size: cover;
+    background: linear-gradient(90deg, #C3B59F,rgb(153,178,221));
+    font-family: "Playfair Display", sans-serif;
+}
+
+
+
+
+.h1 {
+  color: #DCDCDD;
+  opacity: 1;
+  margin-top: 20px;
+  font-size: 28px;
+  /*text-decoration: underline;*/
+}
+
+.p1 { 
+  position: relative;
+  color: #333;
+  text-align: justify;
+  opacity: 1;
+  width: 50%;
+  font-size:18px;
+  margin: auto;
+}
+
+.kid {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 30px;
+  margin-top: 30px;
+  bottom: calc((50vw-300px)/2)-20px;
+  margin: calc((50vw-600)/2);
+}
+
+.kid_txt {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.container {
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 70vh; 
+  position: relative;
+}
