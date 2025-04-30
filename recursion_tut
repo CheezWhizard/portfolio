@@ -1,0 +1,43 @@
+ <html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="tutorial_styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <div class="topnav">
+            <a href="index.html">Home</a>
+            <a class="active" href="tutorials.html">Tutorials</a>
+            <a href="biblio.html">Bibliography</a>
+            <img src= "Olivia_3_.png" alt = "Maya" class = "banner_img">
+        </div>
+
+        <div class = "t1"> RECURSION</div>
+
+        <div class = "p"> 
+            <br><br>
+            Recursion is a way of coding methods. It consists of breaking a method into smaller and smaller pieces by calling itself in itself. You can think of it like Russian nesting dolls: each time you open one, there’s another, smaller one inside, until it reaches the smallest one possible. 
+            <br><br>
+            For example, a method to find the sum of all natural numbers up to and including a certain number n can be coded in a recursive way. The function doesn’t know what the sum of all the numbers up to and including n is, but it does know that it is equal to the sum of all the numbers up to and including n-1, plus n. So it returns the value of itself called with n-1, plus the value of n.
+            <br><br>
+            <img src = "tutorial_imgs/recursion1.PNG" alt = "" class = "tut_img"> 
+            <div class = "descr_text"> 
+                <em>Example of a recursive function</em>
+            </div>
+            <br><br>
+            Recursive methods can keep calling themselves over and over again to infinity unless they are stopped. This is called a stack overflow. To stop the recursive call, good recursive functions have what’s called a base case. This base case returns a value instead of calling themselves again. 
+            <br><br>
+            The base case for the method that finds the sum of all the natural numbers would be 1, since it’s the lowest natural number. The sum of all the natural numbers up to and including 1 is 1, so it returns 1. 
+            <br><br>
+            <img src = "tutorial_imgs/recursion2.PNG" alt = "" class = "tut_img"> 
+            <div class = "descr_text"> 
+                <em>Example of a recursive function with a base case</em>
+            </div>
+        </div>
+    </body>
+</html>
