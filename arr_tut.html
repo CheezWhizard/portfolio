@@ -20,7 +20,7 @@
         <div class = "t1"> ARRAYS/ARRAYLISTS/SEARCH AND SORT TUTORIAL </div>
 
         <div class = "p"> 
-            <u>Arrays</u>
+            <u><b></b>Arrays</b></u>
             <br><br>
             In Java, arrays are easy ways to store large amounts of data in an organized way. They contain a certain number of identifiers, that each point to data. That data is accessible by telling the array to call that identifier.
             <br><br>
@@ -32,6 +32,7 @@
             <div class = "descr_text"> 
                 <em>Examples of the declaration and initialization types of arrays</em>
             </div>
+            <br><br>
             Arrays also have only a set amount of data. When they are declared, they hold a certain amount of data, and no more data can be added.
             <br><br>
             <img src = "tutorial_imgs/arrays2.PNG" alt = "" class = "tut_img"> 
@@ -45,11 +46,86 @@
             <div class = "descr_text"> 
                 <em>Examples of accessing and changing elements at certain indexes in an array</em>
             </div>
+            <br><br>
             To find the set storage limit of an array, you use the length variable inherent to the array class. Length is a public variable of type int, so you call from the object.
             <br><br>
             <img src = "tutorial_imgs/arrays4.PNG" alt = "" class = "tut_img"> 
             <div class = "descr_text"> 
                 <em>Example of finding the array length</em>
             </div>
+            <br><br>
+            <u>2D Arrays</u>
+            2D arrays are a special type of arrays. They are arrays of arrays. They still can only hold one type of data, and cannot add more data than it is told at first. They are defined by having two square brackets before the name of the variable. When they are initialized, the number of rows is given in the first square brackets, and the number of columns in the second. 
+            <br><br>
+            <img src = "tutorial_imgs/2darr1.PNG" alt = "" class = "tut_img"> 
+            <div class = "descr_text"> 
+                <em>Examples of 2D arrays</em>
+            </div>
+            <br><br>
+            To call a specific element from a 2d array, you use the same method as from a 1d array, except you use 2 square brackets, and put the row number in the first brackets and column in the second brackets.
+            <u><b>ArrayLists</b></u>
+            ArrayLists are also easy ways to store large amounts of data in an organized way.
+            <br><br>
+            Like arrays, they are constrained to only one type of data. This type of data is defined when the variable is declared. The type of data is contained in the <> brackets. 
+            <br><br>
+            <img src = "tutorial_imgs/arrayList1.PNG" alt = "" class = "tut_img"> 
+            <div class = "descr_text"> 
+                <em>EExamples of the initialization of different ArrayLists</em>
+            </div>
+            <br><br>
+            Second of all, they are not constrained to a set storage limit. They can contain as much or as little data as is necessary. 
+            <br><br>
+            New data is added with the add method. If only the element to be added is passed, it is added to the end of the array list. If the element to be added and the index at which it is to be inserted are passed, the element is added at that index, and every element in the ArrayList that is at that index or greater is moved one to the right.
+            <br><br>
+            <img src = "tutorial_imgs/arrayList2.PNG" alt = "" class = "tut_img"> 
+            <div class = "descr_text"> 
+                <em>Examples of adding elements to an ArrayList</em>
+            </div>
+            <br><br>
+            Data is removed with the remove method. The remove method removes the element present at the index it is passed, and moves every element with a greater index one to the left.
+            <br><br>
+            <img src = "tutorial_imgs/arrayList3.PNG" alt = "" class = "tut_img"> 
+            <div class = "descr_text"> 
+                <em>Example of removing an element from an ArrayList</em>
+            </div>
+            <br><br>
+            Data is changed with the set method. The set method changes the element at the index passed to it to the element that is passed to it.
+            <br><br>
+            <img src = "tutorial_imgs/arrayList4.PNG" alt = "" class = "tut_img"> 
+            <div class = "descr_text"> 
+                <em>Example of changing an element in an ArrayList</em>
+            </div>
+            <br><br>
+            To find the current amount of elements in an ArrayList, the size() method, which returns the Array’s size, is used.
+            <br><br>
+            <img src = "tutorial_imgs/arrayList5.PNG" alt = "" class = "tut_img"> 
+            <div class = "descr_text"> 
+                <em>Example of getting the size of an ArrayList</em>
+            </div>
+            <br><br>
+            ArrayLists must also be imported using java.util.* at the beginning of the program.
+            <br><br>
+            <u><b>Search and Sort</b></u>
+            Searching and sorting algorithms are used in Java to find and organize data efficiently. They typically sort arrays or ArrayLists. 
+            <br><br>
+            <u>Searching Algorithms: Binary Search</u>
+            <br><br>
+            The most common form of searching algorithm is called Binary Search. It is a method of searching for a specific element in a sorted array by repeatedly dividing the search range in half.
+            <br><br>
+            The array must already be sorted for binary search to work.
+            <br><br>
+            How it works:
+            <ol>
+            <li>Start with the whole array</li>
+            <li>Divide it into halves</li>
+            <li>Check the middle element</li>
+            <li>If it&aposs the element you&aposre looking for, you&aposre done</li>
+            <li>If it&aposs bigger than the element you&aposre looking for, move onto the lower half</li>
+            <li>If it&aposs smaller, move onto the higher half</li>
+            <li>Repeat steps 2-6 until you&aposve found the element, or until the search range is empty</li>
+            </ol>
+
+
+
     </body>
 </html>
